@@ -1,3 +1,4 @@
+<?php
 function Enc($filename){
     $prefix = '$🅱️🅿️🇮🇩';
     $file_content = file_get_contents($filename);
@@ -290,11 +291,3 @@ function BP12🇮🇩($輦漣漣璉秊秊練咽玲例暈留利痢戮罹糖糖宅
 		}
 	}
 
-if(count($argv) >= 2){
-    Enc($argv[1]);
-    Enc_1();
-    Enc_2();
-    Enc_3();
-}else{
-   echo "usage php ".$argv[0]." file.php\n";
-} 

@@ -1,5 +1,3 @@
-<?php
-
 function Enc($filename){
     $prefix = '$🅱️🅿️🇮🇩';
     $file_content = file_get_contents($filename);
